@@ -44,7 +44,7 @@ body{
     outline: none;
     border-radius: 10px;
 }
-.btn{
+.submit_btn{
     background: black;
     color: #e0e0e0;
     margin : 20px auto;
