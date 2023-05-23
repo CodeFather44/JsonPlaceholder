@@ -7,7 +7,7 @@ body{
     width: 300px;
     padding: 40px;
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 40%;
     text-align: center;
 
@@ -17,30 +17,46 @@ body{
              -20px -20px 60px #ffffff;
     
 }
-.input_1{
-    border: 0;
+.input_name{
     background: none;
-    display: block;
-    margin : 20px auto;
-    text-align: center;
+    margin : 20px auto 5px auto ;
     border: 1px solid gray;
-    padding: 14px 10px;
+    padding: 10px 8px;
     width: 200px;
     outline: none;
-    border-radius: 24px;
+    border-radius: 10px;
+}
+.input_username{
+    background: none;
+    margin : 5px auto;
+    border: 1px solid gray;
+    padding: 10px 8px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+}
+.input_city{
+    background: none;
+    /*display: block;*/
+    margin : 5px auto;
+    border: 1px solid gray;
+    padding: 10px 8px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
 }
 .btn{
-    border: 0;
     background: black;
     color: #e0e0e0;
-    display: block;
+    /*display: block;*/
     margin : 20px auto;
     text-align: center;
-    padding: 14px 10px;
+    padding: 10px 8px;
     width: 200px;
     outline: none;
-    border-radius: 24px;
+    border-radius: 10px;
 }
 .btn:hover{
     font-weight: 600;
+    border-color: white;
 }
