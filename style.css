@@ -57,4 +57,5 @@ body{
 .submit_btn:hover{
     font-weight: 600;
     border-color: white;
+    cursor: pointer;
 }
