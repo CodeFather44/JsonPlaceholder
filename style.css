@@ -54,7 +54,7 @@ body{
     outline: none;
     border-radius: 10px;
 }
-.btn:hover{
+.submit_btn:hover{
     font-weight: 600;
     border-color: white;
 }
