@@ -19,9 +19,10 @@ function success(){
     const danger = document.getElementById('danger');
     const successful = document.getElementById('successful');
 
-   if(title.value === "" && body.value === ""){
+   if(title.value === "" || body.value === ""){
     danger.style.display = 'block';
     }else{
-        successful.style.display = 'block'; 
+        successful.style.display = 'block';
+       return document.getElementById('result').innerHTML = `title: ${title.value}\nbody:${body.value}`;
     }
 };
