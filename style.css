@@ -37,7 +37,7 @@
 }
 
 .submit_btn{
-    background: black;
+    background: #343434;
     color: #e0e0e0;
     margin : 20px auto;
     text-align: center;
@@ -47,8 +47,47 @@
     border-radius: 10px;
 }
 .submit_btn:hover{
-    font-weight: 600;
+    /*font-weight: 600;*/
     border-color: white;
-    background-color: #343434;
+    background-color: black;
     cursor: pointer;
+}
+.successful{
+    color: green;
+    background: #ECFFDC;
+    margin : 5px auto 5px auto ;
+    border: 1px solid green;
+    padding: 10px 8px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    transition:.3s;
+    animation: buttons .3s linear;
+    display: none;
+    position:relative;
+}
+.danger{
+    color: red;
+    background: #FAA0A0;
+    margin : 5px auto 5px auto ;
+    border: 1px solid red;
+    padding: 10px 8px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display: none;
+    position:relative;
+}
+@keyframes buttons{
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
 }

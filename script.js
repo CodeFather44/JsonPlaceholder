@@ -3,7 +3,7 @@ const newPostForm = {
     body : document.querySelector("body").value,
 }
 
-const userPost = fetch('https://jsonplaceholder.typicode.com/posts', {
+fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST',
   body: JSON.stringify(newPostForm),
   headers: {
@@ -16,9 +16,12 @@ const userPost = fetch('https://jsonplaceholder.typicode.com/posts', {
 submit_button.addEventListener("click", success);
 
 function success(){
-   if(title.value == "" && body.value == ""){
-    window.alert('Vous devez renseigner tout les champs');
+    const danger = document.getElementById('danger');
+    const successful = document.getElementById('successful');
+
+   if(title.value === "" && body.value === ""){
+    danger.style.display = 'block';
     }else{
-        window.alert('title: '+ title.value + ' body: ' + body.value); 
+        successful.style.display = 'block'; 
     }
 };

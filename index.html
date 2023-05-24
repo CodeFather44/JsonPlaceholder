@@ -9,13 +9,18 @@
     <title>Document</title>
 </head>
 <body>
-    <form class="box" method="get">
-        <h1>Json Placeholder</h1>
-        <hr>
-        <input class = "input_title" type = "text" id="title" placeholder="title"></input>
-        <input class = "input_body" type = "textarea" id="body" placeholder="write your post"></input>
-        <button class = "submit_btn" type = "submit" id="submit_button">Create post</button>
-    </form>
-            
+    <div class = "container">
+        <form class="box" method="get">
+            <h1>Json Placeholder</h1>
+            <hr>
+            <input class = "input_title" type = "text" id="title" placeholder="title"></input>
+            <input class = "input_body" type = "textarea" id="body" placeholder="write your post"></input>
+            <button class = "submit_btn" type = "submit" id="submit_button" onclick = "success()" >Create post</button>
+            <div class = "alert">
+                <div class = "successful" id = "successful">Your post successfully sent! 😎 </div>
+                <div class = "danger" id = "danger">Fields can't be empty! 🤷‍♂ </div>
+            </div>
+        </form>
+    </div>     
 </body>
 </html>
