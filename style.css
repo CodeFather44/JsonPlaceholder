@@ -52,6 +52,12 @@
     background-color: black;
     cursor: pointer;
 }
+.submit_btn:focus{
+    /*font-weight: 600;*/
+    border-color: white;
+    background-color: black;
+    cursor: pointer;
+}
 .successful{
     color: green;
     background: #ECFFDC;
