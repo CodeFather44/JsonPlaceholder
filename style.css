@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: monospace,sans-serif;
@@ -16,7 +16,7 @@ body{
              -20px -20px 60px #ffffff;
     
 }
-.input_name{
+.input_title{
     background: none;
     margin : 20px auto 5px auto ;
     border: 1px solid gray;
@@ -25,24 +25,17 @@ body{
     outline: none;
     border-radius: 10px;
 }
-.input_username{
+.input_body{
     background: none;
     margin : 5px auto;
     border: 1px solid gray;
     padding: 10px 8px;
     width: 200px;
+    height: 100px;
     outline: none;
     border-radius: 10px;
 }
-.input_city{
-    background: none;
-    margin : 5px auto;
-    border: 1px solid gray;
-    padding: 10px 8px;
-    width: 200px;
-    outline: none;
-    border-radius: 10px;
-}
+
 .submit_btn{
     background: black;
     color: #e0e0e0;
@@ -56,5 +49,6 @@ body{
 .submit_btn:hover{
     font-weight: 600;
     border-color: white;
+    background-color: #343434;
     cursor: pointer;
 }
